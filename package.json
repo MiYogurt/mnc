@@ -1,0 +1,20 @@
+{
+  "name": "mnc",
+  "version": "1.0.0",
+  "description": "moonscript compile tools can exclude some files",
+  "main": "index.js",
+  "bin": "bin/mnc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee -o dist -c ./src/mnc.coffee"
+  },
+  "keywords": ["moonscripts"],
+  "author": "yugo",
+  "license": "ISC",
+  "dependencies": {
+    "glob-watcher": "^5.0.3"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.4.0"
+  }
+}
